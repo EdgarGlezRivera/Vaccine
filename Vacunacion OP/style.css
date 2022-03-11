@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+
+button{
+    background-color: blue;
+    color: whitesmoke;
+    border: none;
+    padding: 16px;
+    font-size: 18.5px;
+}
+
+.button-dropdown-g{
+    display: inline-block;
+    position: relative;
+}
+.button-dropdown{
+    display: none;
+    position: absolute;
+    box-shadow: 10px;
+    background-color:antiquewhite;
+    width: 260px;
+    text-align: center;
+}
+
+.button-dropdown-g:hover .button-dropdown{
+    display: block;
+}
+header nav{
+    
+    display:flex;
+    
+    padding-bottom: 25px;
+
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black ;
+}
